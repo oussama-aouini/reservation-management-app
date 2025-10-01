@@ -2,7 +2,7 @@ import apiClient from "@/services/api-client";
 import { CanceledError } from "axios";
 import { useEffect, useState } from "react";
 
-interface Reservation {
+export interface Reservation {
   id: number;
   time: Date;
   reserver: string;

@@ -1,5 +1,6 @@
 import { Grid, GridItem } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
+import ReservationGrid from "./components/ReservationGrid";
 
 function App() {
   return (
@@ -12,11 +13,11 @@ function App() {
       <GridItem area="nav">
         <NavBar />
       </GridItem>
-      <GridItem hideBelow="lg" area="aside" bg="green">
+      <GridItem hideBelow="lg" area="aside">
         Aside
       </GridItem>
-      <GridItem area="main" bg="red">
-        Main
+      <GridItem area="main">
+        <ReservationGrid />
       </GridItem>
     </Grid>
   );
