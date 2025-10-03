@@ -1,9 +1,9 @@
-import useReservations from "@/hooks/useReservations";
+// import useReservations from "@/hooks/useReservations";
 import { SimpleGrid } from "@chakra-ui/react";
 import ReservationCard from "./ReservationCard";
 
 const ReservationGrid = () => {
-  const { reservations, error } = useReservations();
+  // const { reservations, error } = useReservations();
 
   return (
     <SimpleGrid
