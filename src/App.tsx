@@ -1,6 +1,7 @@
 import { Grid, GridItem } from "@chakra-ui/react";
 import NavBar from "./components/NavBar";
 import ReservationGrid from "./components/ReservationGrid";
+import Balance from "./components/Balance";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       </GridItem>
       <GridItem area="main">
         <ReservationGrid />
+        <Balance />
       </GridItem>
     </Grid>
   );
