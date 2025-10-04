@@ -1,6 +1,7 @@
 // import useReservations from "@/hooks/useReservations";
 import { SimpleGrid } from "@chakra-ui/react";
 import ReservationCard from "./ReservationCard";
+import ReservationCardSkeleton from "./ReservationCardSkeleton";
 
 const ReservationGrid = () => {
   // const { reservations, error } = useReservations();
@@ -14,6 +15,7 @@ const ReservationGrid = () => {
       <ReservationCard />
       <ReservationCard />
       <ReservationCard />
+      <ReservationCardSkeleton />
     </SimpleGrid>
   );
 };
